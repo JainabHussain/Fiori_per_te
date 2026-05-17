@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {      
+    background-image: url(https://i.pinimg.com/736x/aa/df/f9/aadff9120e8dc0b0b2bc8207eeedda66.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+
+
+.contact {
+    padding: 60px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-text,
+.mappa {
+    width: 50%;
+}
+
+.mappa {
+    box-shadow: 3px 4px 2px rgba(12, 6, 33, 0.3);
+    background-color: #7230426f;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.left-text {
+    width: 55%;
+    line-height: 1.8;
+    padding: 30px;
+}
+
+.left-text p{
+    max-width: 500px;
+    color: rgb(247, 118, 234);
+}
+
+.left-text h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 8px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.left-text p{
+    font-size: 18px;
+    color: rgb(181, 16, 115);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.orario {
+    padding: 30px;
+    min-width: 250px;
+}
+
+.orario ul {
+    list-style: none;
+}
+
+.orario li {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 15px;
+
+    color: rgb(104, 20, 55);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+}
+
+
+
+
+
+.linea-verticale {
+  border-left: 2px solid #dc99a9;
+  height: 100px;             
+  margin: 0 auto;
+}
+
+
+
+
+
+.bottom-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    background:#ff69b4;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 3px 4px 1px rgba(43, 14, 158, 0.3);
+
+    transition: 0.7s ease;
+}
+
+.btn:hover {
+    background: black;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px pink;
+}
